@@ -208,10 +208,11 @@ footer > .logo > img {
     width: 65px;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 414px){
 
     body {
         width: 100%;
+        visibility: collapse;
     }
 
    #services > .cards {
